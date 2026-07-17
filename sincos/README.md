@@ -5,7 +5,7 @@ using multiplication of complex numbers for rotation.
 
 Starting at 1 (in other words `cos(0) + j sin(0)`), we
 multiply by `cos(step) + j sin(step)`, this way stepping
-along a quarter cirlce, exploiting symmetry writing down
+along a quarter circle, exploiting symmetry writing down
 the values at four positions in destination memory.
 
 The prototype in Rust will check against truncation and
